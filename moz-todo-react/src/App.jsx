@@ -1,3 +1,4 @@
+import Fidel from "./assets/fidel.png";
 import { useState, useEffect } from "react";
 import {
   ArrowUpRight,
@@ -245,7 +246,7 @@ function App() {
         {/* FIDEL HERO PORTRAIT */}
         <div className="absolute right-[2%] bottom-0 hidden md:flex items-end justify-end w-[48%] h-[92%] z-10 pointer-events-none">
           <img
-            src="/public/fidel.png"
+            src={Fidel}
             alt="Vincent Fidel Jomo"
             className="
       h-full
